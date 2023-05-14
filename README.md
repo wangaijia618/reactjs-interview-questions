@@ -447,7 +447,8 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-4.  ### What is the difference between Element and Component?
+4.  ### What is the difference between Element and Component? 
+React Element - It is a simple object that describes a DOM node and its attributes or properties you can say. It is an immutable description object and you can not apply any methods on it. React Component - It is a function or class that accepts an input and returns a React element.
 
     An _Element_ is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. _Elements_ can contain other _Elements_ in their props. Creating a React element is cheap. Once an element is created, it cannot be mutated.
 
